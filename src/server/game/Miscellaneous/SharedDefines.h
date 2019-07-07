@@ -1343,6 +1343,9 @@ enum SpellEffectName
     SPELL_EFFECT_RESPEC_AZERITE_EMPOWERED_ITEM      = 259,
     SPELL_EFFECT_SUMMON_STABLED_PET                 = 260,
     SPELL_EFFECT_SCRAP_ITEM                         = 261,
+    SPELL_EFFECT_262                                = 262,
+    SPELL_EFFECT_REPAIR_ITEM                        = 263,
+    SPELL_EFFECT_REMOVE_GEM                         = 264,
     TOTAL_SPELL_EFFECTS
 };
 
@@ -2338,7 +2341,7 @@ enum Targets
     TARGET_UNK_126                     = 126,
     TARGET_UNK_127                     = 127,
     TARGET_UNK_128                     = 128,
-    TARGET_UNK_129                     = 129,
+    TARGET_UNIT_CONE_ENTRY_129         = 129,
     TARGET_UNK_130                     = 130,
     TARGET_UNK_131                     = 131,
     TARGET_UNK_132                     = 132,
